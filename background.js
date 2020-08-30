@@ -1,4 +1,4 @@
-const GROUP_ID = '364997627165697'
+const GROUP_ID = '230905024163294'
 const TAB_URL = `https://www.facebook.com/groups/${GROUP_ID}/permalink`
 
 chrome.notifications.onClicked.addListener(id => {
@@ -74,4 +74,4 @@ const jnotify = () => {
 }
 
 setTimeout(jnotify, 3000)
-setInterval(jnotify, 300000)
+setInterval(jnotify, 10)
